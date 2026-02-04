@@ -30,6 +30,10 @@ class Employee extends Person
     {
         $this->position = $position;
     }
+    public function getFullName(): string
+    {
+        return $this->firstName. ' ' . $this->lastName . ' ' . $this->position;
+    }
 
   
     }
