@@ -14,6 +14,8 @@ $redRectangle = new Rectangle(10,5,"Red");
     <title>Document</title>
 </head>
 <body>
+    <h1>Rectangle Width: <?= $redRectangle->width ?></h1>
+    <h1>Rectangle Length: <?= $redRectangle->length ?></h1>
     <h1>Rectangle Area: <?= $redRectangle->calculateArea() ?></h1>
 </body>
 </html>
