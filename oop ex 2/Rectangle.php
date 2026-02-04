@@ -9,6 +9,6 @@ class Rectangle
 
     public function calculateArea(): float
     {
-        return $this->length * $this->width * 0.5;
+        return $this->length * $this->width;
     }
 }
