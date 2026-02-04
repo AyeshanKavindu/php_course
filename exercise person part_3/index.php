@@ -14,7 +14,10 @@ $employee = new Employee("Ayeshan","Kavindu",26,"Toyota","Developer");
     <title>Document</title>
 </head>
 <body>
-    <h1> Full Name: <?= $person->getFullName() ?></h1>
-    <h1> Age: <?= $person->getAge() ?></h1>
+    <h1> Full Name: <?= $employee->getFullName() ?></h1>
+    <h1> Age: <?= $employee->getAge() ?></h1>
+    <h1> Company: <?= $employee->getCompany() ?></h1>
+    <h1> Position: <?= $employee->getPosition() ?></h1>
+
 </body>
 </html>
